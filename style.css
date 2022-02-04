@@ -1,0 +1,510 @@
+*{padding: 0;
+
+margin: 0;
+box-sizing: border-box;
+
+
+}
+
+
+body{
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+header{
+    display: flex;
+position: fixed;top: 0px;
+justify-content: center;
+background-color: white;
+border-bottom: 0.2px solid grey;
+width: 100vw;
+}
+nav{
+  
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    justify-content: space-between;
+padding: 10px 20px;
+align-items: center;
+background-color: white;
+}
+nav ul{
+    display: flex;
+    
+}
+.logo a{
+text-decoration: none;
+font-family: 'Comforter', cursive;
+
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0px 10px;
+
+font-size: 1.5rem;
+}
+
+.search{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+padding: 2px 20px;
+align-items: center;
+justify-content: center;
+border-radius:5px;
+
+}.search input{
+  padding: 2px 20px;
+background-color: transparent;
+border: 0;
+}
+.fa-search{
+    margin-right: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+main{
+display: flex; justify-content: center;
+
+
+
+
+}
+.top-div{
+    display: flex;
+
+    text-decoration: none;
+}
+.top-div li{
+    display: flex;
+
+    text-decoration: none;
+}
+.grid-2{ 
+    justify-content: center;
+    display: grid;
+    width: 100%;
+    max-width: 1100px;
+    grid-template-columns: 600px  300px ;
+
+    grid-template-rows: 120px 100%;
+   background-color: rgb(245, 243, 243);
+margin-top: 3rem;
+    height: 100%;
+}
+
+.status{
+    display: flex;text-align: center;
+  
+}
+.status a{
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}.status img{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;  
+    padding: 2px;
+    
+    border:  3px solid orange;
+  }
+  
+
+.div1{
+   background-color: white;
+   grid-column: 1/4;
+   width: 600px;
+margin-top: 1rem;
+display: flex;
+height: 100px;
+padding: 10px 30px;
+list-style-type: none;
+border: 0.6px solid grey;
+}
+
+.div1 img{
+width: 50px;
+border-radius: 50px;
+height: 50px;
+margin: 5px 10px;
+}
+
+
+
+
+.div2{
+    background-color: rgb(255, 255, 255);
+   
+width: 100%;
+height: 100%;
+
+}
+
+
+.pink{
+    color: pink;
+}
+
+.div4{
+    background-color: rgb(255, 230, 0);
+}
+
+
+
+.card{
+    display: flex;flex-direction: column;
+    width: 80%;
+max-width: 600px;
+    background-color: white;
+  border: 1px solid rgba(var(--b6a,219,219,219),1);
+height: 100%;
+max-height:800px;
+;
+margin-top:0.2rem;
+
+
+
+
+}
+
+#user-post{
+height:  500px;
+width:480px;
+
+}
+
+
+
+.flex{
+    display: flex;
+    width: 100%;
+    border: 0.4px solid rgba(255, 255, 255, 0.192);
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px;
+}
+
+
+
+.top-border {
+    border-top: 1px solid grey;
+}
+
+
+#card-img-profile{
+width:50px;
+border-radius: 50px;
+height: 50px;
+}
+
+.div-profile-card{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}.username-card{
+    margin-left: 0.8rem;
+}
+
+
+.grey{
+    color: grey;
+}
+.flex-clm{
+    padding: 15px 15px;
+}
+
+
+
+.flex input {
+padding: 4px 20px;
+width: 100%;margin: 0 10px;
+border: 0;
+}
+.flex input:focus {
+outline: 0;
+}
+
+
+.margin-top{
+    margin-top: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div3{
+position:fixed;
+left: 60%;
+width: 100%;
+height: 400px;
+display: flex;
+padding: 20px;
+margin-left: 2rem;
+
+ }
+.margin-left{
+    margin-left: 0.4rem;
+}
+.blue-light{
+    color: lightblue;
+    margin-left: 6rem;
+}
+
+.flex-clm-right{
+    display: flex;
+    flex-direction: column;
+
+}
+ .flex-right{
+     display: flex;
+     margin: 0.5rem 0;
+     align-items: center;
+ }
+
+ .flex-text
+ {
+     margin: 1rem 0;
+ }
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 920px) {
+
+    .div3{
+        display: none;
+        position: relative;
+        }
+        
+
+.grid-2{
+display: grid;
+    justify-content: center;
+    display: grid;
+    width: 100%;
+    max-width: 1100px;
+    grid-template-columns: repeat(1,0fr) ;
+
+    grid-template-rows: 120px 100%;
+   background-color: rgb(245, 243, 243);
+margin-top: 2rem;
+    height: 100%;
+}
+
+
+
+@media only screen and (max-width: 733px) {
+
+
+.div3{
+display: none;
+}
+
+
+.search{
+    display: none;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 650px) {
+
+    nav ul li{
+        list-style-type: none;
+        margin: 0px 10px;
+    align-items: center;
+    font-size: 1rem;
+    }
+    .div3{
+    display: none;
+    }
+ 
+    
+    .search{
+        display: none;
+    }
+    .div1 {
+        background-color: white;
+        grid-column: 1/4;
+        width: 400px;
+        display: flex;
+        height: 100px;
+        padding: 10px 0px;
+        list-style-type: none;
+        border: 0.6px solid grey;
+    
+    
+    }
+    
+
+    #user-post {
+        height: 500px;
+        width: 100%;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 414px) {
+
+    nav ul li{
+        list-style-type: none;
+        margin: 0px 10px;
+    align-items: center;
+    font-size: 1rem;
+    }
+    .div3{
+    display: none;
+    }
+   
+    
+    .search{
+        display: none;
+    }
+    .div1 {
+        background-color: white;
+        grid-column: 1/4;
+
+    width: 400px;
+        display: flex;
+        height: 100px;
+        padding: 10px 20px;
+        list-style-type: none;
+        border: 0.6px solid grey;
+    
+    
+    }
+    
+    .div1 img {
+        width: 30px;
+        border-radius: 50px;
+        height: 30px;
+        margin: 5px 10px;
+    }
+    #user-post {
+        height: 500px;
+        width: 100%;
+    }
+
+.div2 {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 100%;
+}
+
+
+
+
+.card{
+    display: flex;flex-direction: column;
+    width: 400px;
+max-width: 400px;
+    background-color: white;
+  border: 1px solid rgba(var(--b6a,219,219,219),1);
+height: 100%;
+max-height:800px;
+;
+margin-top:0.2rem;
+
+
+
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 385px) {
+
+
+
+
+
+
+
+
+    .div2{
+        background-color: rgb(255, 255, 255);
+        width: 300px;
+        height: 100%;
+        padding: 10px 20px;
+    }
+    
+    
+    
+    
+    .card{
+        display: flex;flex-direction: column;
+        width: 350px;
+    max-width: 400px;
+        background-color: white;
+      border: 1px solid rgba(var(--b6a,219,219,219),1);
+    height: 100%;
+    max-height:800px;
+    ;
+    margin-top:0.2rem;
+    
+    
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
